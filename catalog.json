@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.0.0",
+  "repository": "HiAsh02/collection",
+  "description": "Curated index of AI Agent Skills & Plugins organized with Git submodules (gitlink symlinks) and cross-host metadata.",
+  "updatedAt": "2026-11-16",
+  "categories": [
+    {
+      "id": "01-engineering-workflows",
+      "name": "Engineering Workflows",
+      "label": "软件工程工作流",
+      "description": "End-to-end spec, design, planning, TDD, debugging, review, and shipping workflows for coding agents."
+    },
+    {
+      "id": "02-architecture-and-memory",
+      "name": "Architecture, Memory & Orchestration",
+      "label": "架构理解、记忆与多 Agent 编排",
+      "description": "Codebase explanation, persistent markdown memory loops, and multi-agent skill orchestration."
+    },
+    {
+      "id": "03-writing-and-content",
+      "name": "Writing & Content",
+      "label": "写作与文本去噪",
+      "description": "Natural Chinese writing, rewriting, and AI-tone removal."
+    },
+    {
+      "id": "04-visual-and-ip",
+      "name": "Visual & Personal IP",
+      "label": "视觉设计、封面与个人 IP",
+      "description": "Multi-platform covers, stylized avatars, personal IP character illustrations, and Xiaohongshu cards."
+    },
+    {
+      "id": "05-knowledge-and-media",
+      "name": "Knowledge & Media",
+      "label": "知识检索与播客媒体",
+      "description": "Podcast transcript search, timeline tracking, and timestamped media citation."
+    }
+  ],
+  "entries": [
+    {
+      "id": "dev-workflow",
+      "name": "dev-workflow (dw-*)",
+      "category": "01-engineering-workflows",
+      "localPath": "01-engineering-workflows/dev-workflow",
+      "repo": "HiAsh02/dev-workflow",
+      "url": "https://github.com/HiAsh02/dev-workflow",
+      "ref": "main",
+      "commit": "70e5be60dccfb8ffa0343b1cb5d3d5f6ef62d988",
+      "kind": "plugin+skills",
+      "skillsPath": "skills",
+      "skills": [
+        "dw-start",
+        "dw-design",
+        "dw-plan",
+        "dw-build",
+        "dw-debug",
+        "dw-review",
+        "dw-ship",
+        "dw-handoff"
+      ],
+      "install": {
+        "npx": "npx skills add HiAsh02/dev-workflow",
+        "magpie": {
+          "kind": "github",
+          "repo": "HiAsh02/dev-workflow",
+          "ref": "main",
+          "path": "skills"
+        }
+      },
+      "notes": "Supports en (skills/) and zh-CN (locales/zh-CN/); includes transaction-hardened cross-host installer (bin/dev-workflow.mjs)."
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "category": "01-engineering-workflows",
+      "localPath": "01-engineering-workflows/superpowers",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "ref": "main",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "kind": "plugin+skills",
+      "skillsPath": "skills",
+      "skills": [
+        "using-superpowers",
+        "brainstorming",
+        "writing-plans",
+        "executing-plans",
+        "subagent-driven-development",
+        "dispatching-parallel-agents",
+        "using-git-worktrees",
+        "test-driven-development",
+        "systematic-debugging",
+        "verification-before-completion",
+        "requesting-code-review",
+        "receiving-code-review",
+        "finishing-a-development-branch",
+        "writing-skills",
+        "diagnosing-superpowers"
+      ],
+      "install": {
+        "npx": "npx skills add obra/superpowers",
+        "claudePlugin": "obra/superpowers",
+        "magpie": {
+          "kind": "github",
+          "repo": "obra/superpowers",
+          "ref": "main",
+          "path": "skills"
+        }
+      }
+    },
+    {
+      "id": "mattpocock-skills",
+      "name": "Matt Pocock Skills",
+      "category": "01-engineering-workflows",
+      "localPath": "01-engineering-workflows/mattpocock-skills",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "ref": "main",
+      "commit": "5863806dd4e15c63174bee4e7515a4256792ecfa",
+      "kind": "plugin+skills",
+      "skillsPath": "skills",
+      "skills": [
+        "ask-matt",
+        "setup-matt-pocock-skills",
+        "grill-with-docs",
+        "to-spec",
+        "to-tickets",
+        "implement",
+        "implement-spec",
+        "tdd",
+        "code-review",
+        "diagnosing-bugs",
+        "domain-modeling",
+        "codebase-design",
+        "improve-codebase-architecture",
+        "pr",
+        "prototype",
+        "research",
+        "retro",
+        "triage",
+        "wayfinder",
+        "wizard",
+        "grill-me",
+        "grilling",
+        "handoff",
+        "teach",
+        "to-questionnaire",
+        "wait-what",
+        "writing-for-agents",
+        "git-guardrails-claude-code",
+        "migrate-to-shoehorn",
+        "scaffold-exercises",
+        "setup-pre-commit"
+      ],
+      "install": {
+        "npx": "npx skills add mattpocock/skills",
+        "claudePlugin": "mattpocock-skills",
+        "magpie": {
+          "kind": "github",
+          "repo": "mattpocock/skills",
+          "ref": "main",
+          "path": "skills"
+        }
+      }
+    },
+    {
+      "id": "poteto-plugins",
+      "name": "Poteto Plugins (pstack & Cursor Plugins)",
+      "category": "01-engineering-workflows",
+      "localPath": "01-engineering-workflows/poteto-plugins",
+      "repo": "poteto/plugins",
+      "url": "https://github.com/poteto/plugins",
+      "ref": "main",
+      "commit": "74dd2291e8e37b12fd6dc49b2acbd655c6bdaf12",
+      "kind": "plugin-marketplace",
+      "subpath": "pstack",
+      "skillsPath": "pstack/skills",
+      "skills": [
+        "poteto-mode",
+        "setup-pstack",
+        "automate-me",
+        "architect",
+        "arena",
+        "figure-it-out",
+        "how",
+        "interrogate",
+        "reflect",
+        "show-me-your-work",
+        "tdd",
+        "typescript-best-practices",
+        "unslop",
+        "why"
+      ],
+      "install": {
+        "cursorPlugin": "/add-plugin pstack",
+        "npx": "npx skills add poteto/plugins/pstack",
+        "magpie": {
+          "kind": "github",
+          "repo": "poteto/plugins",
+          "ref": "main",
+          "path": "pstack/skills"
+        }
+      },
+      "notes": "Repository also hosts orchestrate, thermos, cursor-team-kit, continual-learning, ralph-loop, teaching, and 21 principle-* skills inside pstack/skills."
+    },
+    {
+      "id": "poteto-how",
+      "name": "How (Architecture Explainer)",
+      "category": "02-architecture-and-memory",
+      "localPath": "02-architecture-and-memory/poteto-how",
+      "repo": "poteto/how",
+      "url": "https://github.com/poteto/how",
+      "ref": "main",
+      "commit": "b1ef42969ea7a2bb50aa26c2480274828a0385e7",
+      "kind": "plugin+skills",
+      "skillsPath": "skills",
+      "skills": [
+        "how"
+      ],
+      "install": {
+        "npx": "npx skills add poteto/how",
+        "magpie": {
+          "kind": "github",
+          "repo": "poteto/how",
+          "ref": "main",
+          "path": "skills/how"
+        }
+      }
+    },
+    {
+      "id": "poteto-brainmaxxing",
+      "name": "Brainmaxxing (Persistent Memory)",
+      "category": "02-architecture-and-memory",
+      "localPath": "02-architecture-and-memory/poteto-brainmaxxing",
+      "repo": "poteto/brainmaxxing",
+      "url": "https://github.com/poteto/brainmaxxing",
+      "ref": "main",
+      "commit": "ec4d8e43dee639d6f5d94aed3ca16af7b298ecfc",
+      "kind": "memory+skills",
+      "skillsPath": ".agents/skills",
+      "skills": [
+        "brain",
+        "meditate",
+        "plan",
+        "reflect",
+        "review",
+        "ruminate"
+      ],
+      "install": {
+        "npx": "npx skills add poteto/brainmaxxing",
+        "magpie": {
+          "kind": "github",
+          "repo": "poteto/brainmaxxing",
+          "ref": "main",
+          "path": ".agents/skills"
+        }
+      }
+    },
+    {
+      "id": "poteto-noodle",
+      "name": "Noodle (Agent Orchestrator)",
+      "category": "02-architecture-and-memory",
+      "localPath": "02-architecture-and-memory/poteto-noodle",
+      "repo": "poteto/noodle",
+      "url": "https://github.com/poteto/noodle",
+      "ref": "main",
+      "commit": "82d2921c52370f23f29086de81ccfb600939c037",
+      "kind": "orchestrator+skills",
+      "skillsPath": ".agents/skills",
+      "skills": [
+        "adversarial-review",
+        "ast-grep",
+        "brain",
+        "codex",
+        "commit",
+        "debugging",
+        "execute",
+        "find-skills",
+        "frontend-design",
+        "go-best-practices",
+        "interaction-design",
+        "make-interfaces-feel-better",
+        "meditate",
+        "noodle",
+        "oops",
+        "plan",
+        "quality",
+        "react-best-practices",
+        "refine",
+        "reflect",
+        "review",
+        "ruminate",
+        "schedule",
+        "skill-creator",
+        "testing",
+        "todo",
+        "ts-best-practices",
+        "unslop",
+        "worktree"
+      ],
+      "install": {
+        "guide": "https://raw.githubusercontent.com/poteto/noodle/main/INSTALL.md",
+        "magpie": {
+          "kind": "github",
+          "repo": "poteto/noodle",
+          "ref": "main",
+          "path": ".agents/skills"
+        }
+      }
+    },
+    {
+      "id": "human-writing",
+      "name": "Human Writing (活人感写作)",
+      "category": "03-writing-and-content",
+      "localPath": "03-writing-and-content/human-writing",
+      "repo": "KKKKhazix/human-writing",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "ref": "main",
+      "commit": "288297b6c2d9b6df23e0ceb64888443f15cfbcc3",
+      "kind": "plugin+skill",
+      "skillsPath": "human-writing",
+      "skills": [
+        "human-writing"
+      ],
+      "install": {
+        "npx": "npx skills add KKKKhazix/human-writing",
+        "claudePlugin": "KKKKhazix/human-writing",
+        "magpie": {
+          "kind": "github",
+          "repo": "KKKKhazix/human-writing",
+          "ref": "main",
+          "path": "human-writing"
+        }
+      }
+    },
+    {
+      "id": "punk-posters",
+      "name": "Punk Skill / Punk Posters",
+      "category": "04-visual-and-ip",
+      "localPath": "04-visual-and-ip/punk-posters",
+      "repo": "adrianpunk/Punk-Posters",
+      "url": "https://github.com/adrianpunk/Punk-Posters",
+      "ref": "main",
+      "commit": "15b816cea5dcc7a3b028561d34604246369939b0",
+      "kind": "skills",
+      "skillsPath": "skills",
+      "skills": [
+        "punk-cover",
+        "punk-avatar",
+        "punk-ip-video-cover"
+      ],
+      "install": {
+        "npx": "npx skills add adrianpunk/Punk-Posters",
+        "magpie": {
+          "kind": "github",
+          "repo": "adrianpunk/Punk-Posters",
+          "ref": "main",
+          "path": "skills"
+        }
+      },
+      "notes": "adrianpunk/Punk-Skill redirects to adrianpunk/Punk-Posters. Personal non-commercial use is free; commercial use requires license."
+    },
+    {
+      "id": "punk-ip",
+      "name": "Punk IP (Article Illustrations)",
+      "category": "04-visual-and-ip",
+      "localPath": "04-visual-and-ip/punk-ip",
+      "repo": "adrianpunk/Punk-IP",
+      "url": "https://github.com/adrianpunk/Punk-IP",
+      "ref": "main",
+      "commit": "c5cbd8241cc92cd8583e878617c3788682e89a88",
+      "kind": "skill",
+      "skillsPath": ".",
+      "skills": [
+        "punk-ip-article-illustrations"
+      ],
+      "install": {
+        "npx": "npx skills add adrianpunk/Punk-IP",
+        "magpie": {
+          "kind": "github",
+          "repo": "adrianpunk/Punk-IP",
+          "ref": "main",
+          "path": "."
+        }
+      },
+      "notes": "Personal non-commercial use is free; commercial use requires license."
+    },
+    {
+      "id": "punk-xhs",
+      "name": "Punk XHS Cards",
+      "category": "04-visual-and-ip",
+      "localPath": "04-visual-and-ip/punk-xhs",
+      "repo": "adrianpunk/Punk-xhs",
+      "url": "https://github.com/adrianpunk/Punk-xhs",
+      "ref": "main",
+      "commit": "03a9c3d32e9d0d14a60ecb3999335e6b80fa16ea",
+      "kind": "skill",
+      "skillsPath": "punk-xhs-cards",
+      "skills": [
+        "punk-xhs-cards"
+      ],
+      "install": {
+        "npx": "npx skills add adrianpunk/Punk-xhs",
+        "magpie": {
+          "kind": "github",
+          "repo": "adrianpunk/Punk-xhs",
+          "ref": "main",
+          "path": "punk-xhs-cards"
+        }
+      },
+      "notes": "Personal non-commercial use is free; commercial use requires license."
+    },
+    {
+      "id": "next-token-skill",
+      "name": "Next Token Skill (词元之外播客检索)",
+      "category": "05-knowledge-and-media",
+      "localPath": "05-knowledge-and-media/next-token-skill",
+      "repo": "next-token-tv/next-token-skill",
+      "url": "https://github.com/next-token-tv/next-token-skill",
+      "ref": "main",
+      "commit": "9419b1e873d01eaf14ca4122c025b02281b690e4",
+      "kind": "skill",
+      "skillsPath": "next-token",
+      "skills": [
+        "next-token"
+      ],
+      "install": {
+        "npx": "npx skills add next-token-tv/next-token-skill",
+        "magpie": {
+          "kind": "github",
+          "repo": "next-token-tv/next-token-skill",
+          "ref": "main",
+          "path": "next-token"
+        }
+      }
+    }
+  ]
+}

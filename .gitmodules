@@ -1,0 +1,48 @@
+[submodule "01-engineering-workflows/dev-workflow"]
+	path = 01-engineering-workflows/dev-workflow
+	url = https://github.com/HiAsh02/dev-workflow.git
+	branch = main
+[submodule "01-engineering-workflows/superpowers"]
+	path = 01-engineering-workflows/superpowers
+	url = https://github.com/obra/superpowers.git
+	branch = main
+[submodule "01-engineering-workflows/mattpocock-skills"]
+	path = 01-engineering-workflows/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+	branch = main
+[submodule "01-engineering-workflows/poteto-plugins"]
+	path = 01-engineering-workflows/poteto-plugins
+	url = https://github.com/poteto/plugins.git
+	branch = main
+[submodule "02-architecture-and-memory/poteto-how"]
+	path = 02-architecture-and-memory/poteto-how
+	url = https://github.com/poteto/how.git
+	branch = main
+[submodule "02-architecture-and-memory/poteto-brainmaxxing"]
+	path = 02-architecture-and-memory/poteto-brainmaxxing
+	url = https://github.com/poteto/brainmaxxing.git
+	branch = main
+[submodule "02-architecture-and-memory/poteto-noodle"]
+	path = 02-architecture-and-memory/poteto-noodle
+	url = https://github.com/poteto/noodle.git
+	branch = main
+[submodule "03-writing-and-content/human-writing"]
+	path = 03-writing-and-content/human-writing
+	url = https://github.com/KKKKhazix/human-writing.git
+	branch = main
+[submodule "04-visual-and-ip/punk-posters"]
+	path = 04-visual-and-ip/punk-posters
+	url = https://github.com/adrianpunk/Punk-Posters.git
+	branch = main
+[submodule "04-visual-and-ip/punk-ip"]
+	path = 04-visual-and-ip/punk-ip
+	url = https://github.com/adrianpunk/Punk-IP.git
+	branch = main
+[submodule "04-visual-and-ip/punk-xhs"]
+	path = 04-visual-and-ip/punk-xhs
+	url = https://github.com/adrianpunk/Punk-xhs.git
+	branch = main
+[submodule "05-knowledge-and-media/next-token-skill"]
+	path = 05-knowledge-and-media/next-token-skill
+	url = https://github.com/next-token-tv/next-token-skill.git
+	branch = main

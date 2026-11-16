@@ -1,0 +1,118 @@
+{
+  "name": "hiash02-collection",
+  "owner": {
+    "name": "HiAsh02",
+    "url": "https://github.com/HiAsh02"
+  },
+  "description": "Curated collection of AI Agent Skills & Plugins across engineering workflows, memory/orchestration, Chinese writing, visual/IP creation, and media search.",
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": {
+        "source": "github",
+        "repo": "HiAsh02/dev-workflow"
+      },
+      "description": "Portable, evidence-driven software development workflows (dw-* skills) with risk escalation and explicit authorization gates.",
+      "category": "engineering-workflows"
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "Core skills library for coding agents: brainstorming, planning, TDD, systematic debugging, and subagent-driven development.",
+      "category": "engineering-workflows"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "description": "Matt Pocock's engineering skills (grilling, spec/ticket flows, TDD, code review, domain modeling, and productivity helpers).",
+      "category": "engineering-workflows"
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "github",
+        "repo": "poteto/plugins"
+      },
+      "description": "Poteto's rigorous engineering workflows and 21 principle-* skills hosted inside poteto/plugins (subpath: pstack).",
+      "category": "engineering-workflows"
+    },
+    {
+      "name": "poteto-how",
+      "source": {
+        "source": "github",
+        "repo": "poteto/how"
+      },
+      "description": "Architecture explanation and multi-critic skill (/how) for onboarding onto unfamiliar subsystems.",
+      "category": "architecture-and-memory"
+    },
+    {
+      "name": "poteto-brainmaxxing",
+      "source": {
+        "source": "github",
+        "repo": "poteto/brainmaxxing"
+      },
+      "description": "Persistent markdown/Obsidian memory vault and reflect/ruminate/meditate learning loop for coding agents.",
+      "category": "architecture-and-memory"
+    },
+    {
+      "name": "poteto-noodle",
+      "source": {
+        "source": "github",
+        "repo": "poteto/noodle"
+      },
+      "description": "Skill-based Go agent orchestrator with 29 built-in skills covering execution, memory, and frontend/backend practices.",
+      "category": "architecture-and-memory"
+    },
+    {
+      "name": "human-writing",
+      "source": {
+        "source": "github",
+        "repo": "KKKKhazix/human-writing"
+      },
+      "description": "活人感写作：中文长文写作、改稿与去 AI 味技能。",
+      "category": "writing-and-content"
+    },
+    {
+      "name": "punk-posters",
+      "source": {
+        "source": "github",
+        "repo": "adrianpunk/Punk-Posters"
+      },
+      "description": "Punk Skill visual suite: punk-cover, punk-avatar, and punk-ip-video-cover.",
+      "category": "visual-and-ip"
+    },
+    {
+      "name": "punk-ip",
+      "source": {
+        "source": "github",
+        "repo": "adrianpunk/Punk-IP"
+      },
+      "description": "Create reusable personal IP characters and generate consistent article illustrations (punk-ip-article-illustrations).",
+      "category": "visual-and-ip"
+    },
+    {
+      "name": "punk-xhs",
+      "source": {
+        "source": "github",
+        "repo": "adrianpunk/Punk-xhs"
+      },
+      "description": "Convert Markdown articles and personal IP assets into Xiaohongshu knowledge cards (punk-xhs-cards).",
+      "category": "visual-and-ip"
+    },
+    {
+      "name": "next-token-skill",
+      "source": {
+        "source": "github",
+        "repo": "next-token-tv/next-token-skill"
+      },
+      "description": "Search transcripts and blog posts of the Next Token (词元之外) Chinese AI podcast with timestamped links.",
+      "category": "knowledge-and-media"
+    }
+  ]
+}
