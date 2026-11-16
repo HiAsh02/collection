@@ -6,7 +6,7 @@
 
 | 目录软连接 | 上游仓库 | 定位与核心能力 | Skill 路径 |
 |---|---|---|---|
-| [human-writing](./human-writing) | [`KKKKhazix/human-writing`](https://github.com/KKKKhazix/human-writing) | 活人感写作（v1.2.0）：中文创作、改稿与去 AI 味 | `human-writing/` |
+| [human-writing](https://github.com/KKKKhazix/human-writing/tree/288297b6c2d9b6df23e0ceb64888443f15cfbcc3) | [`KKKKhazix/human-writing`](https://github.com/KKKKhazix/human-writing) | 活人感写作（v1.2.0）：中文创作、改稿与去 AI 味 | `human-writing/` |
 
 ---
 

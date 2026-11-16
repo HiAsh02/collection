@@ -6,10 +6,10 @@
 
 | 目录软连接 | 上游仓库 | 定位与特点 | 核心入口 Skill |
 |---|---|---|---|
-| [dev-workflow](./dev-workflow) | [`HiAsh02/dev-workflow`](https://github.com/HiAsh02/dev-workflow) | 自研：证据驱动、三档强度（`quick`/`standard`/`rigorous`）、显式提交/远端授权关口、支持 `en`/`zh-CN` 与多宿主事务安装 | `dw-start` |
-| [superpowers](./superpowers) | [`obra/superpowers`](https://github.com/obra/superpowers) | 纪律驱动的经典 Agent 工程框架：强调苏格拉底式需求发散、Red-Green-Refactor TDD 与子 Agent 驱动执行 | `using-superpowers` |
-| [mattpocock-skills](./mattpocock-skills) | [`mattpocock/skills`](https://github.com/mattpocock/skills) | 实用派研发流水线：主打“苏格拉底拷问（Grill）→ Spec → Tickets → 实现 → 审查”，附带个人学习与协作 Skill | `ask-matt` |
-| [poteto-plugins](./poteto-plugins) | [`poteto/plugins`](https://github.com/poteto/plugins) | Cursor 插件合集，核心子路径 [`pstack`](https://github.com/poteto/plugins/tree/main/pstack) 主打“降噪写少而精的代码”、多模型协同与 21 条显式工程原则 | `poteto-mode` |
+| [dev-workflow](https://github.com/HiAsh02/dev-workflow/tree/70e5be60dccfb8ffa0343b1cb5d3d5f6ef62d988) | [`HiAsh02/dev-workflow`](https://github.com/HiAsh02/dev-workflow) | 自研：证据驱动、三档强度（`quick`/`standard`/`rigorous`）、显式提交/远端授权关口、支持 `en`/`zh-CN` 与多宿主事务安装 | `dw-start` |
+| [superpowers](https://github.com/obra/superpowers/tree/22f0b463e7a5e579904dd6211a520321035526f7) | [`obra/superpowers`](https://github.com/obra/superpowers) | 纪律驱动的经典 Agent 工程框架：强调苏格拉底式需求发散、Red-Green-Refactor TDD 与子 Agent 驱动执行 | `using-superpowers` |
+| [mattpocock-skills](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa) | [`mattpocock/skills`](https://github.com/mattpocock/skills) | 实用派研发流水线：主打“苏格拉底拷问（Grill）→ Spec → Tickets → 实现 → 审查”，附带个人学习与协作 Skill | `ask-matt` |
+| [poteto-plugins](https://github.com/poteto/plugins/tree/74dd2291e8e37b12fd6dc49b2acbd655c6bdaf12) | [`poteto/plugins`](https://github.com/poteto/plugins) | Cursor 插件合集，核心子路径 [`pstack`](https://github.com/poteto/plugins/tree/main/pstack) 主打“降噪写少而精的代码”、多模型协同与 21 条显式工程原则 | `poteto-mode` |
 
 ---
 

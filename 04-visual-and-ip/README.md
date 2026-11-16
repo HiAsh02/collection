@@ -8,9 +8,9 @@
 
 | 目录软连接 | 上游仓库 | 定位与核心能力 | 包含 Skill |
 |---|---|---|---|
-| [punk-posters](./punk-posters) | [`adrianpunk/Punk-Posters`](https://github.com/adrianpunk/Punk-Posters)（原 `Punk-Skill`） | 多平台内容封面、风格化头像与个人 IP 视频封面生成 | `punk-cover`、`punk-avatar`、`punk-ip-video-cover` |
-| [punk-ip](./punk-ip) | [`adrianpunk/Punk-IP`](https://github.com/adrianpunk/Punk-IP) | 个人 IP 角色设定持久化与一致画风的文章正文小剧场插图 | `punk-ip-article-illustrations` |
-| [punk-xhs](./punk-xhs) | [`adrianpunk/Punk-xhs`](https://github.com/adrianpunk/Punk-xhs) | Markdown 教程/长文转小红书主题色封面 + 编号知识卡片 | `punk-xhs-cards` |
+| [punk-posters](https://github.com/adrianpunk/Punk-Posters/tree/15b816cea5dcc7a3b028561d34604246369939b0) | [`adrianpunk/Punk-Posters`](https://github.com/adrianpunk/Punk-Posters)（原 `Punk-Skill`） | 多平台内容封面、风格化头像与个人 IP 视频封面生成 | `punk-cover`、`punk-avatar`、`punk-ip-video-cover` |
+| [punk-ip](https://github.com/adrianpunk/Punk-IP/tree/c5cbd8241cc92cd8583e878617c3788682e89a88) | [`adrianpunk/Punk-IP`](https://github.com/adrianpunk/Punk-IP) | 个人 IP 角色设定持久化与一致画风的文章正文小剧场插图 | `punk-ip-article-illustrations` |
+| [punk-xhs](https://github.com/adrianpunk/Punk-xhs/tree/03a9c3d32e9d0d14a60ecb3999335e6b80fa16ea) | [`adrianpunk/Punk-xhs`](https://github.com/adrianpunk/Punk-xhs) | Markdown 教程/长文转小红书主题色封面 + 编号知识卡片 | `punk-xhs-cards` |
 
 ---
 

@@ -6,7 +6,7 @@
 
 | 目录软连接 | 上游仓库 | 定位与核心能力 | Skill 路径 |
 |---|---|---|---|
-| [next-token-skill](./next-token-skill) | [`next-token-tv/next-token-skill`](https://github.com/next-token-tv/next-token-skill) | 《Next Token｜词元之外》中文 AI 播客逐字稿与博客检索工具 | `next-token/` |
+| [next-token-skill](https://github.com/next-token-tv/next-token-skill/tree/9419b1e873d01eaf14ca4122c025b02281b690e4) | [`next-token-tv/next-token-skill`](https://github.com/next-token-tv/next-token-skill) | 《Next Token｜词元之外》中文 AI 播客逐字稿与博客检索工具 | `next-token/` |
 
 ---
 

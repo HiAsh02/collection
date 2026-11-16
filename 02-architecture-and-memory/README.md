@@ -6,9 +6,9 @@
 
 | 目录软连接 | 上游仓库 | 定位与核心能力 | Skill 路径 |
 |---|---|---|---|
-| [poteto-how](./poteto-how) | [`poteto/how`](https://github.com/poteto/how) | 代码库架构讲解：按高级工程师 Onboarding 水准拆解子系统与调用链，支持并行探索与多模型 Critique | `skills/how` |
-| [poteto-brainmaxxing](./poteto-brainmaxxing) | [`poteto/brainmaxxing`](https://github.com/poteto/brainmaxxing) | 基于 Markdown / Obsidian Vault 的极简持久化记忆与自我进化闭环 | `.agents/skills/*` |
-| [poteto-noodle](./poteto-noodle) | [`poteto/noodle`](https://github.com/poteto/noodle) | 基于 Go 构建的 Skill 驱动多 Agent 编排运行时，内置任务调度、Worktree 隔离与 29 个工程 Skill | `.agents/skills/*` |
+| [poteto-how](https://github.com/poteto/how/tree/b1ef42969ea7a2bb50aa26c2480274828a0385e7) | [`poteto/how`](https://github.com/poteto/how) | 代码库架构讲解：按高级工程师 Onboarding 水准拆解子系统与调用链，支持并行探索与多模型 Critique | `skills/how` |
+| [poteto-brainmaxxing](https://github.com/poteto/brainmaxxing/tree/ec4d8e43dee639d6f5d94aed3ca16af7b298ecfc) | [`poteto/brainmaxxing`](https://github.com/poteto/brainmaxxing) | 基于 Markdown / Obsidian Vault 的极简持久化记忆与自我进化闭环 | `.agents/skills/*` |
+| [poteto-noodle](https://github.com/poteto/noodle/tree/82d2921c52370f23f29086de81ccfb600939c037) | [`poteto/noodle`](https://github.com/poteto/noodle) | 基于 Go 构建的 Skill 驱动多 Agent 编排运行时，内置任务调度、Worktree 隔离与 29 个工程 Skill | `.agents/skills/*` |
 
 ---
 

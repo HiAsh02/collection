@@ -53,38 +53,38 @@ collection/
 
 | 名称 | 软连接目录 | 上游仓库 | 核心 Skill / 亮点 | 适用场景 |
 |---|---|---|---|---|
-| **dev-workflow** | [`dev-workflow`](./01-engineering-workflows/dev-workflow) | [`HiAsh02/dev-workflow`](https://github.com/HiAsh02/dev-workflow) | `dw-start` / `dw-design` / `dw-plan` / `dw-build` / `dw-debug` / `dw-review` / `dw-ship` / `dw-handoff` | 自研全流程工程规范：三档强度、风险升级、显式提交关口与双语支持 |
-| **Superpowers** | [`superpowers`](./01-engineering-workflows/superpowers) | [`obra/superpowers`](https://github.com/obra/superpowers) | 15 个 Skill：`using-superpowers`、`brainstorming`、`writing-plans`、`test-driven-development`、`systematic-debugging`、`subagent-driven-development` 等 | 高纪律性研发闭环、Red-Green-Refactor TDD 与子 Agent 执行 |
-| **Matt Pocock Skills** | [`mattpocock-skills`](./01-engineering-workflows/mattpocock-skills) | [`mattpocock/skills`](https://github.com/mattpocock/skills) | `ask-matt`、`grill-me` / `grill-with-docs`、`to-spec`、`to-tickets`、`implement`、`tdd`、`code-review`、`teach` 等 | 先“拷问”对齐设计再写 Spec/Tickets，兼顾实用协作与学习辅助 |
-| **Poteto Plugins (`pstack`)** | [`poteto-plugins`](./01-engineering-workflows/poteto-plugins) | [`poteto/plugins`](https://github.com/poteto/plugins)（子目录 [`pstack`](https://github.com/poteto/plugins/tree/main/pstack)） | `poteto-mode`、`setup-pstack`、`automate-me`、`unslop`、21 条 `principle-*` 工程原则等共 35 个 Skill | 拒绝 AI Slop 代码，追求高信噪比、多模型协作与极简高质量交付 |
+| **dev-workflow** | [`dev-workflow`](https://github.com/HiAsh02/dev-workflow/tree/70e5be60dccfb8ffa0343b1cb5d3d5f6ef62d988) | [`HiAsh02/dev-workflow`](https://github.com/HiAsh02/dev-workflow) | `dw-start` / `dw-design` / `dw-plan` / `dw-build` / `dw-debug` / `dw-review` / `dw-ship` / `dw-handoff` | 自研全流程工程规范：三档强度、风险升级、显式提交关口与双语支持 |
+| **Superpowers** | [`superpowers`](https://github.com/obra/superpowers/tree/22f0b463e7a5e579904dd6211a520321035526f7) | [`obra/superpowers`](https://github.com/obra/superpowers) | 15 个 Skill：`using-superpowers`、`brainstorming`、`writing-plans`、`test-driven-development`、`systematic-debugging`、`subagent-driven-development` 等 | 高纪律性研发闭环、Red-Green-Refactor TDD 与子 Agent 执行 |
+| **Matt Pocock Skills** | [`mattpocock-skills`](https://github.com/mattpocock/skills/tree/5863806dd4e15c63174bee4e7515a4256792ecfa) | [`mattpocock/skills`](https://github.com/mattpocock/skills) | `ask-matt`、`grill-me` / `grill-with-docs`、`to-spec`、`to-tickets`、`implement`、`tdd`、`code-review`、`teach` 等 | 先“拷问”对齐设计再写 Spec/Tickets，兼顾实用协作与学习辅助 |
+| **Poteto Plugins (`pstack`)** | [`poteto-plugins`](https://github.com/poteto/plugins/tree/74dd2291e8e37b12fd6dc49b2acbd655c6bdaf12) | [`poteto/plugins`](https://github.com/poteto/plugins)（子目录 [`pstack`](https://github.com/poteto/plugins/tree/main/pstack)） | `poteto-mode`、`setup-pstack`、`automate-me`、`unslop`、21 条 `principle-*` 工程原则等共 35 个 Skill | 拒绝 AI Slop 代码，追求高信噪比、多模型协作与极简高质量交付 |
 
 ### [02 · 架构理解、记忆与多 Agent 编排（Architecture, Memory & Orchestration）](./02-architecture-and-memory/README.md)
 
 | 名称 | 软连接目录 | 上游仓库 | 核心 Skill / 亮点 | 适用场景 |
 |---|---|---|---|---|
-| **How** | [`poteto-how`](./02-architecture-and-memory/poteto-how) | [`poteto/how`](https://github.com/poteto/how) | `/how`（Explain 与多模型 Critique 双模式） | 接手陌生子系统时的资深工程师级架构梳理与问题审视 |
-| **Brainmaxxing** | [`poteto-brainmaxxing`](./02-architecture-and-memory/poteto-brainmaxxing) | [`poteto/brainmaxxing`](https://github.com/poteto/brainmaxxing) | `brain`、`reflect`、`ruminate`、`meditate`、`plan`、`review`（配套 Obsidian Markdown Vault） | 会话复盘、挖掘历史对话经验并让 Agent 规则持续自我进化 |
-| **Noodle** | [`poteto-noodle`](./02-architecture-and-memory/poteto-noodle) | [`poteto/noodle`](https://github.com/poteto/noodle) | Go 编排运行时 + `.agents/skills/` 下 29 个内置 Skill（含 `noodle`、`schedule`、`worktree`、`ast-grep` 等） | 基于 Skill 调度多 Agent 并行工作流与 Worktree 管理 |
+| **How** | [`poteto-how`](https://github.com/poteto/how/tree/b1ef42969ea7a2bb50aa26c2480274828a0385e7) | [`poteto/how`](https://github.com/poteto/how) | `/how`（Explain 与多模型 Critique 双模式） | 接手陌生子系统时的资深工程师级架构梳理与问题审视 |
+| **Brainmaxxing** | [`poteto-brainmaxxing`](https://github.com/poteto/brainmaxxing/tree/ec4d8e43dee639d6f5d94aed3ca16af7b298ecfc) | [`poteto/brainmaxxing`](https://github.com/poteto/brainmaxxing) | `brain`、`reflect`、`ruminate`、`meditate`、`plan`、`review`（配套 Obsidian Markdown Vault） | 会话复盘、挖掘历史对话经验并让 Agent 规则持续自我进化 |
+| **Noodle** | [`poteto-noodle`](https://github.com/poteto/noodle/tree/82d2921c52370f23f29086de81ccfb600939c037) | [`poteto/noodle`](https://github.com/poteto/noodle) | Go 编排运行时 + `.agents/skills/` 下 29 个内置 Skill（含 `noodle`、`schedule`、`worktree`、`ast-grep` 等） | 基于 Skill 调度多 Agent 并行工作流与 Worktree 管理 |
 
 ### [03 · 写作与文本去噪（Writing & Content）](./03-writing-and-content/README.md)
 
 | 名称 | 软连接目录 | 上游仓库 | 核心 Skill / 亮点 | 适用场景 |
 |---|---|---|---|---|
-| **Human Writing** | [`human-writing`](./03-writing-and-content/human-writing) | [`KKKKhazix/human-writing`](https://github.com/KKKKhazix/human-writing) | `human-writing`（v1.2.0 活人感写作） | 中文长文创作、改稿与去 AI 味（先审材料再动笔，拒绝模型腔与空话） |
+| **Human Writing** | [`human-writing`](https://github.com/KKKKhazix/human-writing/tree/288297b6c2d9b6df23e0ceb64888443f15cfbcc3) | [`KKKKhazix/human-writing`](https://github.com/KKKKhazix/human-writing) | `human-writing`（v1.2.0 活人感写作） | 中文长文创作、改稿与去 AI 味（先审材料再动笔，拒绝模型腔与空话） |
 
 ### [04 · 视觉设计、封面与个人 IP（Visual & Personal IP）](./04-visual-and-ip/README.md)
 
 | 名称 | 软连接目录 | 上游仓库 | 核心 Skill / 亮点 | 适用场景 |
 |---|---|---|---|---|
-| **Punk Posters / Skill** | [`punk-posters`](./04-visual-and-ip/punk-posters) | [`adrianpunk/Punk-Posters`](https://github.com/adrianpunk/Punk-Posters)（原 `Punk-Skill`） | `punk-cover`、`punk-avatar`、`punk-ip-video-cover` | 小红书 / 公众号 / X / YouTube 封面、风格化头像与真人 IP 视频封面（个人非商用免费） |
-| **Punk IP** | [`punk-ip`](./04-visual-and-ip/punk-ip) | [`adrianpunk/Punk-IP`](https://github.com/adrianpunk/Punk-IP) | `punk-ip-article-illustrations` | 从照片创建持久化个人 IP 角色，为长文生成画风一致的正文小剧场配图 |
-| **Punk XHS Cards** | [`punk-xhs`](./04-visual-and-ip/punk-xhs) | [`adrianpunk/Punk-xhs`](https://github.com/adrianpunk/Punk-xhs) | `punk-xhs-cards` | 将 Markdown 长文与个人 IP 制作成小红书书封与编号知识内页卡片 |
+| **Punk Posters / Skill** | [`punk-posters`](https://github.com/adrianpunk/Punk-Posters/tree/15b816cea5dcc7a3b028561d34604246369939b0) | [`adrianpunk/Punk-Posters`](https://github.com/adrianpunk/Punk-Posters)（原 `Punk-Skill`） | `punk-cover`、`punk-avatar`、`punk-ip-video-cover` | 小红书 / 公众号 / X / YouTube 封面、风格化头像与真人 IP 视频封面（个人非商用免费） |
+| **Punk IP** | [`punk-ip`](https://github.com/adrianpunk/Punk-IP/tree/c5cbd8241cc92cd8583e878617c3788682e89a88) | [`adrianpunk/Punk-IP`](https://github.com/adrianpunk/Punk-IP) | `punk-ip-article-illustrations` | 从照片创建持久化个人 IP 角色，为长文生成画风一致的正文小剧场配图 |
+| **Punk XHS Cards** | [`punk-xhs`](https://github.com/adrianpunk/Punk-xhs/tree/03a9c3d32e9d0d14a60ecb3999335e6b80fa16ea) | [`adrianpunk/Punk-xhs`](https://github.com/adrianpunk/Punk-xhs) | `punk-xhs-cards` | 将 Markdown 长文与个人 IP 制作成小红书书封与编号知识内页卡片 |
 
 ### [05 · 知识检索与播客媒体（Knowledge & Media）](./05-knowledge-and-media/README.md)
 
 | 名称 | 软连接目录 | 上游仓库 | 核心 Skill / 亮点 | 适用场景 |
 |---|---|---|---|---|
-| **Next Token Skill** | [`next-token-skill`](./05-knowledge-and-media/next-token-skill) | [`next-token-tv/next-token-skill`](https://github.com/next-token-tv/next-token-skill) | `next-token`（`scripts/nexttoken.py`） | 检索《Next Token｜词元之外》AI 播客逐字稿与博客，输出 B 站 / YouTube 时间戳直跳引用 |
+| **Next Token Skill** | [`next-token-skill`](https://github.com/next-token-tv/next-token-skill/tree/9419b1e873d01eaf14ca4122c025b02281b690e4) | [`next-token-tv/next-token-skill`](https://github.com/next-token-tv/next-token-skill) | `next-token`（`scripts/nexttoken.py`） | 检索《Next Token｜词元之外》AI 播客逐字稿与博客，输出 B 站 / YouTube 时间戳直跳引用 |
 
 ---
 
