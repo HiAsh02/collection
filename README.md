@@ -40,9 +40,11 @@ collection/
 │   ├── punk-posters        -> adrianpunk/Punk-Posters (原 Punk-Skill)
 │   ├── punk-ip             -> adrianpunk/Punk-IP
 │   └── punk-xhs            -> adrianpunk/Punk-xhs
-└── 05-knowledge-and-media/               # 05 · 知识检索与播客媒体
-    ├── README.md
-    └── next-token-skill    -> next-token-tv/next-token-skill
+├── 05-knowledge-and-media/               # 05 · 知识检索与播客媒体
+│   ├── README.md
+│   └── next-token-skill    -> next-token-tv/next-token-skill
+└── 06-prompts-and-thinking/              # 06 · 提问、学习、决策与自我探索提示词
+    └── README.md
 ```
 
 ---
@@ -85,6 +87,16 @@ collection/
 | 名称 | 软连接目录 | 上游仓库 | 核心 Skill / 亮点 | 适用场景 |
 |---|---|---|---|---|
 | **Next Token Skill** | [`next-token-skill`](https://github.com/next-token-tv/next-token-skill/tree/9419b1e873d01eaf14ca4122c025b02281b690e4) | [`next-token-tv/next-token-skill`](https://github.com/next-token-tv/next-token-skill) | `next-token`（`scripts/nexttoken.py`） | 检索《Next Token｜词元之外》AI 播客逐字稿与博客，输出 B 站 / YouTube 时间戳直跳引用 |
+
+### [06 · 提问、学习、决策与自我探索提示词（Prompts & Thinking Models）](./06-prompts-and-thinking/README.md)
+
+| 模块 | 文档索引 | 包含提示词 | 适用场景 |
+|---|---|---|---|
+| **问清问题** | [一. 问清问题](./06-prompts-and-thinking/README.md#一-问清问题) | 苏格拉底式提问 | 厘清真实困惑、区分事实/解释/价值判断并定位关键问题 |
+| **学习** | [二. 学习](./06-prompts-and-thinking/README.md#二-学习) | 双层解释法、反向拆解、横纵分析法、事实核查 | 跨层次理解概念、拆解优秀成品、深度行研与联网事实核查 |
+| **解决问题** | [三. 解决问题](./06-prompts-and-thinking/README.md#三-解决问题) | 专家会诊、第一性原理、跨领域借解 | 多视角会诊、剥离惯例重构方案、跨学科迁移机制 |
+| **决策** | [四. 决策](./06-prompts-and-thinking/README.md#四-决策) | 双向钢人论证、用最小实验替代空想 | 对等论证两难抉择、设计低成本可逆最小实验验证假设 |
+| **认识你自己** | [五. 认识你自己](./06-prompts-and-thinking/README.md#五-认识你自己) | 挖掘隐藏天赋、人生设计术 | 通过苏格拉底式追问生成个人天赋使用说明书与人生设计蓝图 |
 
 ---
 

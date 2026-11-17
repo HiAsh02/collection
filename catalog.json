@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "repository": "HiAsh02/collection",
   "description": "Curated index of AI Agent Skills & Plugins organized with Git submodules (gitlink symlinks) and cross-host metadata.",
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "categories": [
     {
       "id": "01-engineering-workflows",
@@ -33,6 +33,12 @@
       "name": "Knowledge & Media",
       "label": "知识检索与播客媒体",
       "description": "Podcast transcript search, timeline tracking, and timestamped media citation."
+    },
+    {
+      "id": "06-prompts-and-thinking",
+      "name": "Prompts & Thinking Models",
+      "label": "提问、学习、决策与自我探索提示词",
+      "description": "Structured thinking prompts covering problem framing, learning, problem solving, decision making, and self-discovery."
     }
   ],
   "entries": [
@@ -432,6 +438,31 @@
           "path": "next-token"
         }
       }
+    },
+    {
+      "id": "thinking-prompts",
+      "name": "Prompts & Thinking Models (提问、学习、决策与自我探索)",
+      "category": "06-prompts-and-thinking",
+      "localPath": "06-prompts-and-thinking/README.md",
+      "repo": "HiAsh02/collection",
+      "url": "https://github.com/HiAsh02/collection/tree/main/06-prompts-and-thinking",
+      "ref": "main",
+      "kind": "prompts",
+      "prompts": [
+        "苏格拉底式提问",
+        "双层解释法",
+        "反向拆解",
+        "横纵分析法",
+        "事实核查",
+        "专家会诊",
+        "第一性原理",
+        "跨领域借解",
+        "双向钢人论证",
+        "用最小实验替代空想",
+        "挖掘隐藏天赋",
+        "人生设计术"
+      ],
+      "notes": "Hosted directly in this repository under 06-prompts-and-thinking/README.md across 5 modules."
     }
   ]
 }
